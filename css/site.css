@@ -1,0 +1,38 @@
+
+
+
+
+
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.bgImage {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background: url(/img/GridBG.png);
+}
+
+.titleText {
+    font-family: 'Bungee Inline';
+    font-size:  5em;
+    text-transform: uppercase;
+    color: rgb(255, 255, 0);
+}
+
+.littleText {
+    font-family: 'Shizuru';
+    font-size:  5em;
+    text-transform: uppercase;
+    color: rgb(248, 173, 33);
+}
