@@ -36,3 +36,8 @@ main>.container {
     text-transform: uppercase;
     color: rgb(248, 173, 33);
 }
+
+.minHeight {
+    min-height: 80vh;
+    
+}
