@@ -27,7 +27,7 @@ main>.container {
 }
 
 .footerBackground {
-    
+
 }
 
 .titleText {
@@ -47,4 +47,10 @@ main>.container {
 .minHeight {
     min-height: 80vh;
     
+}.orbitronText {    
+    font-family: 'Orbitron';
+    font-size:  5em;
+    text-transform: uppercase;
+    color: rgb(255, 255, 0);
+    text-shadow: 10px, 3px (29, 29, 29);
 }
