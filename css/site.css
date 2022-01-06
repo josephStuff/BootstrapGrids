@@ -1,7 +1,10 @@
 
 
 
-
+main>.container-fluid {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
 
 main>.container {
     padding: 60px 15px 0;

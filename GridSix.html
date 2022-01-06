@@ -64,22 +64,26 @@
 
     <main class="flex-shrink-0">
         <div class="container mt-1 h-100 minHeight">
-            <div class="row row-cols-1 row-cols-md-2 h-100 gy-3">
-                <div class="row row-md-4">
-                   <div class="bg-secondary text-light h-100">
-                       ROW ONE
-                   </div>
-                </div>
-                <div class="col col-md-4">
-                   <div class="bg-dark text-light h-100">
-                       COLUMN TWO
-                   </div>
-                </div>
-                <div class="col col-md-4">
-                    <div class="bg-secondary text-light h-100">
-                        CLOUMN THREE
+            <div class="row h-100 gy-2">
+                <div class="col-12">
+                    <div class="bg-secondary h-100 text-light">
+                        Column One
                     </div>
-                 </div>
+                </div>
+                <div class="col-12 col-md-6 text-light order-last">
+                    <div class="bg-dark h-100">
+                        Column Two
+                        MOVE THIS COL TO POS THREE ON MOBILE
+                        KEEP LEFT ON MD BREAKPOINTS AND ABOVE
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 text-light order-md-last">
+                    <div class="bg-info h-100">
+                        Column Three
+                        MOVE THIS COL TO POS. TWO ON MOBILE
+                        KEEP RIGHT ON MY BREAKPOINT AND ABOVE
+                    </div>
+                </div>
             </div>
         </div>
     </main>
