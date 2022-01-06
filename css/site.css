@@ -26,18 +26,22 @@ main>.container {
     background: url(/img/GridBG.png);
 }
 
+.footerBackground {
+    
+}
+
 .titleText {
-    font-family: 'Bungee Inline';
+    font-family: 'Shizuru';
     font-size:  5em;
     text-transform: uppercase;
     color: rgb(255, 255, 0);
 }
 
 .littleText {
-    font-family: 'Shizuru';
-    font-size:  5em;
+    font-family: 'Bangers';
+    font-size:  3em;
     text-transform: uppercase;
-    color: rgb(248, 173, 33);
+    color: white;
 }
 
 .minHeight {
